@@ -49,3 +49,4 @@ A small web application showcasing DRF and Docker.
   ```
   8. The application will be accessible at http://localhost:8000/ or http://127.0.0.1:8000/.  
     - API access at /api/v1/drfs endpoint (e.g http://127.0.0.1:8000/api/v1/drfs/)
+      - Individual details access at /[index] endpoint (e.g http://127.0.0.1:8000/api/v1/drfs/1/)

@@ -38,8 +38,14 @@ A small web application showcasing DRF and Docker.
   ```bash
   python manage.py migrate
   ```
-  6. Build and run the Docker containers:
+  6. **Optional** Create a superuser (admin account) for Django admin access:
+  ```bash
+  python manage.py createsuperuser
+  ```
+  Follow the prompts to set up your admin account.
+  7. Build and run the Docker containers:
   ```bash
   docker-compose up --build
   ```
-  7. The application will be accessible at http://localhost:8000/ or http://127.0.0.1:8000/.
+  8. The application will be accessible at http://localhost:8000/ or http://127.0.0.1:8000/.  
+    - API access at /api/v1/drfs endpoint (e.g http://127.0.0.1:8000/api/v1/drfs/)
